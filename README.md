@@ -1,0 +1,3 @@
+This portfolio consists of 12 products, namely:
+1. Real estate market values research (exploratory data analysis).
+2. So on...
