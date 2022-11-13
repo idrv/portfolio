@@ -1,3 +1,4 @@
-This portfolio consists of 12 projects, namely:
-1. Real estate market values research (exploratory data analysis).
-2. So on...
+Портфолио наполняется.
+
+Список проектов:
+- Исследование рынка недвижимости Санкт-Петербурга
