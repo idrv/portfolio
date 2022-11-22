@@ -162,19 +162,6 @@ for frame in dataframes:
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -266,19 +253,6 @@ for frame in dataframes:
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -345,19 +319,6 @@ for frame in dataframes:
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -420,19 +381,6 @@ for frame in dataframes:
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -510,19 +458,6 @@ for frame in dataframes:
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -844,14 +779,6 @@ users.loc[:, 'churn_date'] = pd.to_datetime(
     users.loc[:, 'churn_date'], format='%Y-%m-%d')
 users['churn_date'].dtype
 ```
-
-    /var/folders/z9/nxf9mlds6rlgnch0_jb60f800000gn/T/ipykernel_68570/4214554039.py:1: FutureWarning: In a future version, `df.iloc[:, i] = newvals` will attempt to set the values inplace instead of always setting a new array. To retain the old behavior, use either `df[df.columns[i]] = newvals` or, if columns are non-unique, `df.isetitem(i, newvals)`
-      users.loc[:, 'churn_date'] = pd.to_datetime(
-
-
-
-
-
     dtype('<M8[ns]')
 
 
@@ -915,14 +842,6 @@ users['city'].sort_values().unique()
 users.loc[:, 'reg_date'] = pd.to_datetime(users.loc[:, 'reg_date'], format='%Y-%m-%d')
 users['reg_date'].dtype
 ```
-
-    /var/folders/z9/nxf9mlds6rlgnch0_jb60f800000gn/T/ipykernel_68570/1930224157.py:1: FutureWarning: In a future version, `df.iloc[:, i] = newvals` will attempt to set the values inplace instead of always setting a new array. To retain the old behavior, use either `df[df.columns[i]] = newvals` or, if columns are non-unique, `df.isetitem(i, newvals)`
-      users.loc[:, 'reg_date'] = pd.to_datetime(users.loc[:, 'reg_date'], format='%Y-%m-%d')
-
-
-
-
-
     dtype('<M8[ns]')
 
 
@@ -1090,9 +1009,6 @@ check_ids(calls)
 calls.loc[:, 'call_date'] = pd.to_datetime(calls.loc[:, 'call_date'], format='%Y-%m-%d')
 ```
 
-    /var/folders/z9/nxf9mlds6rlgnch0_jb60f800000gn/T/ipykernel_68570/1423201002.py:1: FutureWarning: In a future version, `df.iloc[:, i] = newvals` will attempt to set the values inplace instead of always setting a new array. To retain the old behavior, use either `df[df.columns[i]] = newvals` or, if columns are non-unique, `df.isetitem(i, newvals)`
-      calls.loc[:, 'call_date'] = pd.to_datetime(calls.loc[:, 'call_date'], format='%Y-%m-%d')
-
 
 
 ```python
@@ -1241,10 +1157,6 @@ check_ids(messages)
 ```python
 messages.loc[:, 'message_date'] = pd.to_datetime(messages.loc[:, 'message_date'], format='%Y-%m-%d')
 ```
-
-    /var/folders/z9/nxf9mlds6rlgnch0_jb60f800000gn/T/ipykernel_68570/1615922978.py:1: FutureWarning: In a future version, `df.iloc[:, i] = newvals` will attempt to set the values inplace instead of always setting a new array. To retain the old behavior, use either `df[df.columns[i]] = newvals` or, if columns are non-unique, `df.isetitem(i, newvals)`
-      messages.loc[:, 'message_date'] = pd.to_datetime(messages.loc[:, 'message_date'], format='%Y-%m-%d')
-
 
 
 ```python
@@ -1396,10 +1308,6 @@ internet['mb_used'].describe()
 internet.loc[:, 'session_date'] = pd.to_datetime(internet.loc[:, 'session_date'], format='%Y-%m-%d')
 ```
 
-    /var/folders/z9/nxf9mlds6rlgnch0_jb60f800000gn/T/ipykernel_68570/2738859407.py:1: FutureWarning: In a future version, `df.iloc[:, i] = newvals` will attempt to set the values inplace instead of always setting a new array. To retain the old behavior, use either `df[df.columns[i]] = newvals` or, if columns are non-unique, `df.isetitem(i, newvals)`
-      internet.loc[:, 'session_date'] = pd.to_datetime(internet.loc[:, 'session_date'], format='%Y-%m-%d')
-
-
 
 ```python
 plt.figure(figsize=(18,8))
@@ -1455,19 +1363,6 @@ tariffs
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1557,19 +1452,6 @@ users_monthly_stats_calls.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1635,19 +1517,6 @@ users_monthly_stats_messages.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1888,19 +1757,6 @@ users_monthly_stats.head(10)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2106,27 +1962,10 @@ users_monthly_stats['month_revenue'].describe()
 users_monthly_stats.groupby('tariff').mean()
 ```
 
-    /var/folders/z9/nxf9mlds6rlgnch0_jb60f800000gn/T/ipykernel_68570/1102696541.py:1: FutureWarning: The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
-      users_monthly_stats.groupby('tariff').mean()
-
-
 
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2193,23 +2032,6 @@ users_monthly_stats.pivot_table(index = 'tariff', values = ['minutes', 'mb', 'me
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead tr th {
-        text-align: left;
-    }
-
-    .dataframe thead tr:last-of-type th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr>
