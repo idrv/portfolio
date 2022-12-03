@@ -5,7 +5,7 @@
 - [Исследование рынка недвижимости Санкт-Петербурга](https://github.com/idrv/portfolio-rus/tree/main/Saint-PetersburgRealtyStudy/README.md)
 - "Для вас специальное предложение": модель определения наиболее подходящего тарифа для пользователей мобильной связи
 - [Сравнение выручки от тарифов оператора мобильной связи](https://github.com/idrv/portfolio-rus/blob/main/CompairingRevenuesCellPhonePlans/README.md)
-- [Компьютерные игры: связь их характеристик и объемов продаж](https://github.com/idrv/portfolio-rus/blob/main/ComputerGamesFeaturesSalesConnection/README.md)
+- [Компьютерные игры: связь их характеристик и объемов продаж](https://github.com/idrv/portfolio-rus/blob/main/ComputerGamesFeaturesSalesConnection/)
 - "Сел и поехал": разработка модели определения рыночной стоимости автомобиля с минимальным временем обучения и отклика
 - Модель прогнозирования отказа клиента от услуг банка
 - Определение региона с максимальной прибыльностью и наименьшими коммерческими рисками для добычи полезных ископаемых
