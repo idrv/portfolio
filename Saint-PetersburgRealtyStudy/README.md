@@ -21,4 +21,4 @@
 - Наиболее "дорогой" месяц с точки зрения предложения недвижимости - апрель, самый дешевый - июнь.
 - В целом период с февраля по апрель - самый активный по продаже недвижимости в выборке.
 
-Использованы библиотеки: pandas, matplotlib, phik, seaborn, skimpy, statsmodels, pymystem3 
+Использованы библиотеки: pandas, Matplotlib, Phi_K, seaborn, skimpy, statsmodels, pymystem3 
